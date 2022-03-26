@@ -1,4 +1,5 @@
 class Sqrt:
+
     def findSqrt(self, target):
         return self.findSqrtInner(target, 0, (target//2)+1)
 
